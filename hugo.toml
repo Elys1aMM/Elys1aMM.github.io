@@ -1,6 +1,6 @@
-baseURL = 'https://yox1no.github.io/'
+baseURL = 'https://elys1amm.github.io/'
 locale = 'zh-CN'
-title = "Yox1no's Blog"
+title = "Elys1aMM's Blog"
 timezone = 'Asia/Shanghai'
 theme = 'hugo-theme-stack'
 defaultContentLanguage = "zh"

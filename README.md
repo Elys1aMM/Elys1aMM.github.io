@@ -1,6 +1,6 @@
-# Yox1no.github.io
+# Elys1aMM.github.io
 
-Personal website and blog built with [Hugo](https://gohugo.io/) and the [Stack](https://github.com/CaiJimmy/hugo-theme-stack) theme, automatically deployed via GitHub Actions to [yox1no.github.io](https://yox1no.github.io/).
+Personal website and blog built with [Hugo](https://gohugo.io/) and the [Stack](https://github.com/CaiJimmy/hugo-theme-stack) theme, automatically deployed via GitHub Actions to [elys1amm.github.io](https://elys1amm.github.io/).
 
 ## Overview
 
@@ -26,7 +26,7 @@ This repository hosts source files for technical notes, paper reading notes, and
 Requires **Hugo Extended** (`v0.120+`).
 
 ```bash
-git clone --recursive https://github.com/Yox1no/Yox1no.github.io.git
-cd Yox1no.github.io
+git clone --recursive https://github.com/Elys1aMM/Elys1aMM.github.io.git
+cd Elys1aMM.github.io
 hugo server -D
 ```

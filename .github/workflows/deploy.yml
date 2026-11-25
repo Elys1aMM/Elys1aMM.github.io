@@ -25,6 +25,13 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
+      - name: Install Dart Sass
+        run: |
+          DART_SASS_VERSION=1.83.4
+          curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          tar -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          sudo mv dart-sass/* /usr/local/bin/
+          rm -rf dart-sass "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
       - run: hugo --minify
       - uses: actions/upload-pages-artifact@v3
         with:
